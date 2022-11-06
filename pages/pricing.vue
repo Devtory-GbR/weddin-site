@@ -1,11 +1,12 @@
 <template>
-  <main>
+  <div>
     <h1>Pricing</h1>
-  </main>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'PricingPage',
-}
+  transition: 'slide-bottom',
+};
 </script>

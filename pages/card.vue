@@ -1,13 +1,14 @@
 <template>
-  <main>
+  <div>
     <h1>Card</h1>
-  </main>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'CardPage',
-}
+  transition: 'slide-bottom',
+};
 </script>
 
 <style></style>

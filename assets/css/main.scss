@@ -1,8 +1,32 @@
+@import 'variables';
+
+// imports for global use of the scss in the hole app
+@import 'animation.scss';
+@import 'buttons.scss';
+@import 'fonts.scss';
+@import 'theme.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
+  background-color: $bg-default;
+  color: $default;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+  .font-pretty {
+    font-family: 'Clicker Script', cursive;
+  }
 }
-section {
+
+section,
+footer,
+header {
   display: grid;
+  justify-items: center;
+
   &.full-height {
     min-height: 100vh;
   }
@@ -10,14 +34,26 @@ section {
     place-items: center;
   }
 
-  .container {
-    width: calc(100% - 24px);
-    max-width: 1040px;
-    padding-left: 12px;
-    padding-right: 12px;
+  .container,
+  .container-fluid {
+    width: calc(100% - calc(2 * $spacing-M));
+    padding-left: $spacing-M;
+    padding-right: $spacing-M;
 
     &.center {
       text-align: center;
     }
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+}
+
+footer {
+  padding-bottom: $spacing-XL;
+
+  @media screen and (max-width: $breakpoint-xs) {
+    padding-bottom: $spacing-M;
   }
 }

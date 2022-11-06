@@ -1,0 +1,69 @@
+/* colors */
+$primary-color: #ff847c;
+$primary-color-darken: #ff6c63;
+
+$accent-color: #7871c2;
+
+$default: #444444;
+$bg-default: #ffffff;
+
+$default-secondary: #616161;
+$default-secondary2: #8f8f8f;
+
+/* font size */
+$typography-headline1: 82px;
+$typography-headline2: 51px;
+$typography-headline3: 41px;
+$typography-headline4: 29px;
+$typography-headline5: 20px;
+$typography-headline6: 17px;
+$typography-body1: 16px;
+$typography-body2: 14px;
+$typography-subtitle1: 14px;
+$typography-subtitle2: 12px;
+$typography-button: 14px;
+$typography-overline: 10px;
+$typography-caption: 12px;
+
+/* material card shadow */
+$box-shadow-z0: 0px 0px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-z1: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+  0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-z2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+  0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-z3: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+  0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-z4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+  0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-z5: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+  0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-z6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+  0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+$box-shadow-z7: 0px 4px 5px -2px rgba(0, 0, 0, 0.2),
+  0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+$box-shadow-z8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+  0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+$box-shadow-z9: 0px 5px 6px -3px rgba(0, 0, 0, 0.2),
+  0px 9px 12px 1px rgba(0, 0, 0, 0.14), 0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+
+// Breakpoints
+
+$breakpoint-xs: 600px;
+$breakpoint-sm: 960px;
+$breakpoint-md: 1280px;
+$breakpoint-lg: 1920px;
+
+// Spacing
+$spacing-base: 16px;
+$spacing-XXS: calc($spacing-base * 0.125);
+$spacing-XS: calc($spacing-base * 0.25);
+$spacing-S: calc($spacing-base * 0.5);
+$spacing-M: $spacing-base;
+$spacing-L: calc($spacing-base * 2);
+$spacing-XL: calc($spacing-base * 3);
+$spacing-XXL: calc($spacing-base * 4);
+$spacing-XXXL: calc($spacing-base * 8);
+
+//Border-radius
+$border-radius: $spacing-S;

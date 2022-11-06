@@ -1,0 +1,27 @@
+@import 'variables';
+
+.btn {
+  text-decoration: none;
+
+  padding: 12px 24px;
+  transition: all 0.3s;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: $typography-button;
+  border-radius: $border-radius;
+  cursor: pointer;
+  text-align: center;
+
+  &.primary {
+    color: #ffffff;
+    background-color: $primary-color;
+
+    &:hover {
+      background-color: $primary-color-darken;
+    }
+  }
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
