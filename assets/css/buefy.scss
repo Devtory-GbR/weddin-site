@@ -1,0 +1,95 @@
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+@import 'variables';
+
+// Set your colors
+$primary: $primary-color;
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+
+$accent: $accent-color;
+$accent-light: findLightColor($accent);
+$accent-dark: findDarkColor($accent);
+$accent-invert: findColorInvert($accent);
+
+$custom-colors: (
+  'accent': (
+    $accent,
+    $accent-invert,
+    $accent-light,
+    $accent-dark,
+  ),
+);
+
+$colors: mergeColorMaps(
+  (
+    'white': (
+      $white,
+      $black,
+    ),
+    'black': (
+      $black,
+      $white,
+    ),
+    'light': (
+      $light,
+      $light-invert,
+    ),
+    'dark': (
+      $dark,
+      $dark-invert,
+    ),
+    'primary': (
+      $primary,
+      $primary-invert,
+      $primary-light,
+      $primary-dark,
+    ),
+    'link': (
+      $link,
+      $link-invert,
+      $link-light,
+      $link-dark,
+    ),
+    'info': (
+      $info,
+      $info-invert,
+      $info-light,
+      $info-dark,
+    ),
+    'success': (
+      $success,
+      $success-invert,
+      $success-light,
+      $success-dark,
+    ),
+    'warning': (
+      $warning,
+      $warning-invert,
+      $warning-light,
+      $warning-dark,
+    ),
+    'danger': (
+      $danger,
+      $danger-invert,
+      $danger-light,
+      $danger-dark,
+    ),
+  ),
+  $custom-colors
+);
+
+$menu-item-radius: 8px;
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+// customize some stuff
+.button {
+  border-radius: $border-radius;
+  font-size: $typography-button;
+  padding: 12px 24px;
+}

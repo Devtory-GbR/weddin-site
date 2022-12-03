@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <h1>Docs</h1>
-  </div>
+  <section>
+    <div class="app-container">
+      <h1>Docs</h1>
+    </div>
+  </section>
 </template>
 
 <script>

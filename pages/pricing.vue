@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <h1>Pricing</h1>
-  </div>
+  <section>
+    <div class="app-container">
+      <h1>Pricing</h1>
+    </div>
+  </section>
 </template>
 
 <script>

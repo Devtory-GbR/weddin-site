@@ -1,10 +1,12 @@
 @import 'variables';
 
+// buefy ui framework
+@import 'buefy.scss';
+
 // imports for global use of the scss in the hole app
 @import 'animation.scss';
 @import 'buttons.scss';
 @import 'fonts.scss';
-@import 'theme.scss';
 
 html {
   scroll-behavior: smooth;
@@ -34,19 +36,19 @@ header {
     place-items: center;
   }
 
-  .container,
-  .container-fluid {
+  .app-container,
+  .app-container-fluid {
     width: calc(100% - calc(2 * $spacing-M));
-    padding-left: $spacing-M;
-    padding-right: $spacing-M;
+    padding: $spacing-M;
+    margin: unset;
 
     &.center {
       text-align: center;
     }
   }
 
-  .container {
-    max-width: 1200px;
+  .app-container {
+    max-width: $max-width-content;
   }
 }
 

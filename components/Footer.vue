@@ -1,17 +1,21 @@
 <template>
   <footer>
-    <div class="container">
+    <div class="app-container">
       <div class="seperator"></div>
       <div class="footer-content">
-        <div class="text-p font-pretty title">Weddin</div>
-        <div class="spacer"></div>
-        <NuxtLink to="/contact">Contact</NuxtLink>
-        <NuxtLink to="/imprint">Imprint</NuxtLink>
-        <NuxtLink to="/privacy">Privacy</NuxtLink>
-      </div>
-      <div class="footer-powred-by">
-        powered by
-        <a href="https://www.devtory.io/" target="_blank">devtory.io</a>
+        <div class="footer-title-wrapper">
+          <div class="text-p font-pretty title">Weddin</div>
+          <div class="footer-powred-by">
+            powered by
+            <a href="https://www.devtory.io/" target="_blank">devtory.io</a>
+          </div>
+        </div>
+        <div class="spacer is-hidden-mobile"></div>
+        <div class="footer-links">
+          <NuxtLink to="/contact">Contact</NuxtLink>
+          <NuxtLink to="/imprint">Imprint</NuxtLink>
+          <NuxtLink to="/privacy">Privacy</NuxtLink>
+        </div>
       </div>
     </div>
   </footer>
@@ -27,6 +31,11 @@ export default {
 @import './../assets/css/variables';
 
 footer {
+  .app-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .seperator {
     background-color: #f1e7e7;
     height: 1px;
@@ -45,18 +54,38 @@ footer {
       flex: 1;
     }
 
-    a {
-      transition: all 0.3s;
-      color: $default-secondary;
-      text-decoration: none;
+    .footer-links {
+      display: flex;
+      align-items: center;
+      gap: $spacing-L;
+      a {
+        transition: all 0.3s;
+        color: $default-secondary;
+        text-decoration: none;
 
-      &:hover {
-        color: $accent-color;
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+
+    @media (max-width: $breakpoint-xs) {
+      flex-direction: column;
+      gap: $spacing-S;
+      align-items: flex-start;
+
+      .footer-links {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
       }
     }
 
     .title {
       font-size: $typography-headline4;
+      margin-bottom: 0;
+      color: $primary-color;
+      font-weight: unset;
     }
   }
 

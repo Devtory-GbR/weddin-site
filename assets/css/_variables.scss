@@ -47,12 +47,14 @@ $box-shadow-z8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
 $box-shadow-z9: 0px 5px 6px -3px rgba(0, 0, 0, 0.2),
   0px 9px 12px 1px rgba(0, 0, 0, 0.14), 0px 3px 16px 2px rgba(0, 0, 0, 0.12);
 
-// Breakpoints
+//max width content
+$max-width-content: 1200px;
 
-$breakpoint-xs: 600px;
-$breakpoint-sm: 960px;
-$breakpoint-md: 1280px;
-$breakpoint-lg: 1920px;
+// Breakpoints
+$breakpoint-xs: 768px;
+$breakpoint-sm: 1023px;
+$breakpoint-md: 1215px;
+$breakpoint-lg: 1407px;
 
 // Spacing
 $spacing-base: 16px;
