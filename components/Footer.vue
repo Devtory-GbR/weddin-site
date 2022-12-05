@@ -12,9 +12,9 @@
         </div>
         <div class="spacer is-hidden-mobile"></div>
         <div class="footer-links">
-          <NuxtLink to="/contact">Contact</NuxtLink>
-          <NuxtLink to="/imprint">Imprint</NuxtLink>
-          <NuxtLink to="/privacy">Privacy</NuxtLink>
+          <NuxtLink to="/contact">Kontakt</NuxtLink>
+          <NuxtLink to="/imprint">Impressum</NuxtLink>
+          <NuxtLink to="/privacy">Datenschutz</NuxtLink>
         </div>
       </div>
     </div>
@@ -71,7 +71,7 @@ footer {
 
     @media (max-width: $breakpoint-xs) {
       flex-direction: column;
-      gap: $spacing-S;
+      gap: $spacing-M;
       align-items: flex-start;
 
       .footer-links {

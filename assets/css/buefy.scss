@@ -93,3 +93,40 @@ $menu-item-radius: 8px;
   font-size: $typography-button;
   padding: 12px 24px;
 }
+
+.title.is-1,
+.subtitle.is-1 {
+  @media (max-width: $breakpoint-xs) {
+    font-size: 2.5rem;
+  }
+}
+.title.is-2,
+.subtitle.is-2 {
+  @media (max-width: $breakpoint-xs) {
+    font-size: 2rem;
+  }
+}
+.title.is-3,
+.subtitle.is-3 {
+  @media (max-width: $breakpoint-xs) {
+    font-size: 1.75rem;
+  }
+}
+.title.is-4,
+.subtitle.is-4 {
+  @media (max-width: $breakpoint-xs) {
+    font-size: 1.5rem;
+  }
+}
+.title.is-5,
+.subtitle.is-5 {
+  @media (max-width: $breakpoint-xs) {
+    font-size: 1.25rem;
+  }
+}
+.title.is-6,
+.subtitle.is-6 {
+  @media (max-width: $breakpoint-xs) {
+    font-size: 1rem;
+  }
+}

@@ -1,7 +1,7 @@
 <template>
-  <section>
-    <div class="app-container">
-      <h1>Docs</h1>
+  <section class="center" style="flex: 1">
+    <div class="app-container center">
+      <h1 class="title is-2 has-text-primary">Comming soon...</h1>
     </div>
   </section>
 </template>
