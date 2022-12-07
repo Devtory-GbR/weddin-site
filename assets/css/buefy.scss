@@ -81,7 +81,8 @@ $colors: mergeColorMaps(
   $custom-colors
 );
 
-$menu-item-radius: 8px;
+$menu-item-radius: $border-radius;
+$card-radius: $border-radius;
 
 // Import Bulma and Buefy styles
 @import '~bulma';

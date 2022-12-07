@@ -15,7 +15,6 @@ html {
 body {
   margin: 0;
   background-color: $bg-default;
-  color: $default;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 
   .font-pretty {
@@ -50,6 +49,10 @@ header {
   .app-container {
     max-width: $max-width-content;
   }
+}
+
+section:first-of-type .app-container {
+  padding-top: $spacing-L;
 }
 
 footer {
