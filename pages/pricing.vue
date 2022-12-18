@@ -108,6 +108,7 @@ export default {
 
     @media (max-width: $breakpoint-sm) {
       max-width: 750px;
+      min-width: unset;
       width: 100%;
     }
     display: flex;

@@ -4,7 +4,7 @@
       <div class="seperator"></div>
       <div class="footer-content">
         <div class="footer-title-wrapper">
-          <div class="text-p font-pretty title">Weddin</div>
+          <div class="text-p font-pretty title">WeddIn</div>
           <div class="footer-powred-by">
             powered by
             <a href="https://www.devtory.io/" target="_blank">devtory.io</a>

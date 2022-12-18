@@ -10,7 +10,7 @@
       </b-button>
       <NuxtLink to="/" class="title-wrapper">
         <nuxt-img height="45px" src="/images/logo.svg" />
-        <div class="font-pretty title">Weddin</div>
+        <div class="font-pretty title">WeddIn</div>
       </NuxtLink>
       <div class="spacer is-hidden-mobile"></div>
       <nav class="is-hidden-mobile">
