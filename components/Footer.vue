@@ -15,6 +15,7 @@
           <NuxtLink to="/contact">Kontakt</NuxtLink>
           <NuxtLink to="/imprint">Impressum</NuxtLink>
           <NuxtLink to="/privacy">Datenschutz</NuxtLink>
+          <NuxtLink to="/terms-and-conditions">AGB</NuxtLink>
         </div>
       </div>
     </div>
