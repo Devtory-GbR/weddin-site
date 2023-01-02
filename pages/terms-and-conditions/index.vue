@@ -3,11 +3,11 @@
     <div class="app-container">
       <h3 class="title is-3">Allgemeine Geschäftsbedingungen</h3>
       <b-menu>
-        <b-menu-list label="Menu">
+        <b-menu-list label="Pakete">
           <b-menu-item
             tag="nuxt-link"
             to="/terms-and-conditions/code"
-            label="Code"
+            label="Self-hosting"
           ></b-menu-item>
           <b-menu-item
             tag="nuxt-link"
