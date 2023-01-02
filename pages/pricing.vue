@@ -15,15 +15,21 @@
               <div class="price subtitle is-1">0 €</div>
             </div>
             <div class="package-info">
-              For the Nerds: Den gesamten Code zum anpasen und selbsthosten.
+              For the Nerds: Der gesamte Code zum Anpassen und Selbsthosten.
             </div>
             <div class="divider"></div>
             <div class="feature">vorkonfigurierte Datenbank mit Beispielen</div>
-            <div class="feature">Sourcecode FrontEnd und Backend</div>
+            <div class="feature">Sourcecode Frontend und Backend</div>
             <div class="spacer"></div>
-            <NuxtLink class="action button is-accent is-fullwidth" to="/card1"
+            <!-- <NuxtLink class="action button is-accent is-fullwidth" to="/card1"
               >Code anfragen
-            </NuxtLink>
+            </NuxtLink> -->
+            <a
+              class="action button is-accent is-fullwidth"
+              href="mailto:contact@devtory.io"
+            >
+              Code anfragen
+            </a>
           </div>
         </div>
         <div class="card">
@@ -60,17 +66,23 @@
             <div class="divider"></div>
             <div class="feature">vorkonfigurierte Datenbank mit Beispielen</div>
             <div class="feature">
-              eingerichtete Anwendung zum direkt loslegen
+              eingerichtete Anwendung zum Direktloslegen
             </div>
             <div class="feature">Wunsch Sub-Domain XXX.weddin.site</div>
-            <div class="feature">kein Abo - mit 14-tätigen Test</div>
+            <div class="feature">kein Abo - inkl. 14-tätiger Test</div>
             <div class="feature">
               Wartung und evtl. neue Features auf Wunsch
             </div>
             <div class="spacer"></div>
-            <NuxtLink class="action button is-accent is-fullwidth" to="/card2"
+            <!-- <NuxtLink class="action button is-accent is-fullwidth" to="/card2"
               >14-tägigen Test bestellen
-            </NuxtLink>
+            </NuxtLink> -->
+            <a
+              class="action button is-accent is-fullwidth"
+              href="mailto:contact@devtory.io"
+            >
+              14-tägigen Test bestellen
+            </a>
           </div>
         </div>
       </div>
