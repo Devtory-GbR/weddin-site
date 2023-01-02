@@ -3,9 +3,7 @@
     <section>
       <div class="app-container">
         <h3 class="title is-3">Live Demo</h3>
-        <h5 class="subtitle is-5 has-text-accent">
-          Aus der Sicht von euren Gästen
-        </h5>
+        <h5 class="subtitle is-5 has-text-accent">Aus der Sicht eurer Gäste</h5>
 
         <div class="demo-card-wrapper">
           <div class="card">
@@ -44,7 +42,7 @@
       <div class="app-container">
         <h4 class="title is-4">Zugangsdaten Brautpaar</h4>
         <h6 class="subtitle is-6 has-text-accent">
-          Eure Sicht mit dem Dashboard um alles im Blick zu haben
+          Eure Sicht mit Dashboard um alles im Blick zu haben
         </h6>
         <p>
           <b>URL:</b>
