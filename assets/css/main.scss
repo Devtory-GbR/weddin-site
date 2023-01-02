@@ -52,6 +52,10 @@ header {
   }
 }
 
+section .app-container {
+  padding-top: $spacing-XXL;
+}
+
 section:first-of-type .app-container {
   padding-top: $spacing-L;
 }
