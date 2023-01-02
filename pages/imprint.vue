@@ -16,9 +16,9 @@
         >
       </p>
       <br />
-      <h5 class="title is-5">Vertrieb und Verkauf vom Premium Paket</h5>
+      <h5 class="title is-5">Vertrieb und Verkauf des Premium Pakets</h5>
       <p>
-        Der Vertrieb und Verkauf von dem Premium-Paket wird über die
+        Der Vertrieb und Verkauf des Premium Pakets wird über die
         <a href="https://www.devtory.io/impressum" target="_blank"
           >Devtory GbR</a
         >
