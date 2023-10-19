@@ -19,16 +19,25 @@
             </div>
             <div class="divider"></div>
             <div class="feature">vorkonfigurierte Datenbank mit Beispielen</div>
-            <div class="feature">Sourcecode Frontend und Backend</div>
+            <div class="feature">OpenSource Frontend und Backend</div>
             <div class="spacer"></div>
             <!-- <NuxtLink class="action button is-accent is-fullwidth" to="/card1"
               >Code anfragen
             </NuxtLink> -->
+            <!-- Place this tag where you want the button to render. -->
             <a
               class="action button is-accent is-fullwidth"
-              href="mailto:contact@devtory.io"
+              href="https://github.com/Devtory-GbR/weddin-client"
+              target="_blank"
             >
-              Code anfragen
+              Client: View on GitHub
+            </a>
+            <a
+              class="action button is-accent is-fullwidth"
+              href="https://github.com/Devtory-GbR/weddin-server"
+              target="_blank"
+            >
+              Server: View on GitHub
             </a>
           </div>
         </div>
@@ -79,7 +88,7 @@
             </NuxtLink> -->
             <a
               class="action button is-accent is-fullwidth"
-              href="mailto:contact@devtory.io"
+              href="mailto:contact@devtory.io?subject=Premium%20Package%20-%20WeddIn&body=Hallo%2C%0D%0A%0D%0Ahiermit%20m%C3%B6chte%20ich%20gerne%20das%20Premium%20Paket%20f%C3%BCr%20die%20Hochzeitswebseite%20erwerben.%0D%0A%0D%0A(Bitte%20Angeben)%0D%0ALiefertermin%3A%20XX.XX.XXXX%20%2F%20sofort%0D%0AWunschdomain%3A%20XXXX.weddin.site%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A"
             >
               14-tägigen Test bestellen
             </a>
