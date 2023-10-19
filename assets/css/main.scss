@@ -9,6 +9,11 @@
 @import 'fonts.scss';
 @import 'nuxt-content.scss';
 
+::selection {
+  color: #fff;
+  background: $accent-color;
+}
+
 html {
   scroll-behavior: smooth;
 }

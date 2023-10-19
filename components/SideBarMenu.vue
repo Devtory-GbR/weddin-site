@@ -81,9 +81,6 @@ export default {
     .spacer {
       flex: 1;
     }
-
-    .button {
-    }
   }
 
   .nuxt-link-exact-active {

@@ -8,10 +8,10 @@
 <p align="center">Create a digital custom invitation card for your wedding with WeddIn and send the link to your guests. Playfully build a website with all the content around your event, without any programming knowledge.</p>
 <p align="center"></p>
 <p align="center">
-  <a target="_blank" href="https://weddin.site/doc">Docs</a> · <a target="_blank" href="https://weddin.site/demo">Live Demo</a>
+  <a target="_blank" href="https://weddin.site/doc">Documentation</a> · <a target="_blank" href="https://weddin.site/demo">Live Demo</a>
 </p>
 
-# Landingpage<!-- omit in toc -->
+# WeddIn Landingpage<!-- omit in toc -->
 
 <a href="https://nuxt.com/">
   <img src="https://img.shields.io/badge/dynamic/json?label=Nuxt&query=dependencies.nuxt&url=https://raw.githubusercontent.com/Devtory-GbR/weddin-site/master/package.json" />
