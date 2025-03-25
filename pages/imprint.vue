@@ -11,17 +11,13 @@
       <h5 class="title is-5">Kontakt</h5>
       <p>
         E-Mail:
-        <a href="mailto:martinweber.9393@gmail.com"
-          >martinweber.9393@gmail.com</a
-        >
+        <a href="mailto:martinweber.9393@gmail.com">martinweber.9393@gmail.com</a>
       </p>
       <br />
       <h5 class="title is-5">Vertrieb und Verkauf des Premium Pakets</h5>
       <p>
         Der Vertrieb und Verkauf des Premium Pakets wird über die
-        <a href="https://www.devtory.io/impressum" target="_blank"
-          >Devtory GbR</a
-        >
+        <a href="https://www.devtory.io/impressum" target="_blank">Devtory GbR</a>
         abgewickelt. <br />
       </p>
     </div>
@@ -36,7 +32,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './../assets/css/variables';
+@use '/assets/css/variables';
 </style>
-
-

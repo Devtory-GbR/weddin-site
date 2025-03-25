@@ -1,11 +1,7 @@
 <template>
   <header>
     <div class="app-container">
-      <b-button
-        type="is-text"
-        class="is-hidden-desktop"
-        @click="toogleSidebar()"
-      >
+      <b-button type="is-text" class="is-hidden-desktop" @click="toogleSidebar()">
         <b-icon icon="menu" type="is-accent"> </b-icon>
       </b-button>
       <NuxtLink to="/" class="title-wrapper">
@@ -16,8 +12,7 @@
       <nav class="is-hidden-mobile">
         <NuxtLink class="link is-hidden-touch" to="/doc">Anleitung</NuxtLink>
         <NuxtLink class="link is-hidden-touch" to="/demo">Live Demo</NuxtLink>
-        <NuxtLink class="button is-primary btn-lets-go" to="/pricing"
-          >Los gehts
+        <NuxtLink class="button is-primary btn-lets-go" to="/pricing">Los gehts
         </NuxtLink>
       </nav>
     </div>
@@ -36,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import './../assets/css/variables';
+@import '/assets/css/variables';
 
 header {
   position: sticky;
@@ -46,6 +41,7 @@ header {
   box-shadow: 1px 1px 12px rgb(0 0 0 / 15%);
   min-height: 65px;
   z-index: 30;
+
   a {
     transition: all 0.3s;
     text-decoration: none;
@@ -70,6 +66,7 @@ header {
       flex: 1;
     }
   }
+
   .title-wrapper {
     display: flex;
     align-items: center;
@@ -86,6 +83,7 @@ header {
       margin-left: -60px;
     }
   }
+
   .title {
     transition: all 0.3s;
     font-size: $typography-headline3;
@@ -104,6 +102,7 @@ header {
     align-items: center;
     gap: $spacing-L;
     font-size: $typography-body1;
+
     a.link {
       transition: all 0.5s;
       color: $accent-color;
@@ -111,6 +110,7 @@ header {
       &.nuxt-link-exact-active {
         color: $primary-color;
       }
+
       &:hover {
         border-bottom: 1px solid $accent-color;
       }

@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import './../assets/css/variables';
+@import '/assets/css/variables';
 
 footer {
   .app-container {
@@ -51,6 +51,7 @@ footer {
     gap: $spacing-L;
 
     font-size: $typography-body2;
+
     .spacer {
       flex: 1;
     }
@@ -59,6 +60,7 @@ footer {
       display: flex;
       align-items: center;
       gap: $spacing-L;
+
       a {
         transition: all 0.3s;
         color: $default-secondary;

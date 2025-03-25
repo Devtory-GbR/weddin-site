@@ -9,9 +9,7 @@
       <br />
       <p>
         E-Mail:
-        <a href="mailto:martinweber.9393@gmail.com"
-          >martinweber.9393@gmail.com</a
-        >
+        <a href="mailto:martin@devtory.io">martin@devtory.io</a>
       </p>
     </div>
   </section>
@@ -25,7 +23,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './../assets/css/variables';
+@use '/assets/css/variables';
 </style>
-
-

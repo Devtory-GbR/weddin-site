@@ -4,16 +4,8 @@
       <h3 class="title is-3">Allgemeine Geschäftsbedingungen</h3>
       <b-menu>
         <b-menu-list label="Pakete">
-          <b-menu-item
-            tag="nuxt-link"
-            to="/terms-and-conditions/code"
-            label="Self-hosting"
-          ></b-menu-item>
-          <b-menu-item
-            tag="nuxt-link"
-            to="/terms-and-conditions/service"
-            label="Premium Service"
-          ></b-menu-item>
+          <b-menu-item tag="nuxt-link" to="/terms-and-conditions/code" label="Self-hosting"></b-menu-item>
+          <b-menu-item tag="nuxt-link" to="/terms-and-conditions/service" label="Premium Service"></b-menu-item>
         </b-menu-list>
       </b-menu>
     </div>
@@ -28,7 +20,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../assets/css/variables';
+@use '/assets/css/variables';
 </style>
-
-

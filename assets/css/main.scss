@@ -1,13 +1,13 @@
-@import 'variables';
-
 // buefy ui framework
-@import 'buefy.scss';
+@use 'buefy.scss';
 
 // imports for global use of the scss in the hole app
-@import 'animation.scss';
-@import 'buttons.scss';
-@import 'fonts.scss';
-@import 'nuxt-content.scss';
+@use 'animation.scss';
+@use 'buttons.scss';
+@use 'fonts.scss';
+@use 'nuxt-content.scss';
+
+@import 'variables';
 
 ::selection {
   color: #fff;

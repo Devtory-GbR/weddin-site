@@ -25,18 +25,12 @@
               >Code anfragen
             </NuxtLink> -->
             <!-- Place this tag where you want the button to render. -->
-            <a
-              class="action button is-accent is-fullwidth"
-              href="https://github.com/Devtory-GbR/weddin-client"
-              target="_blank"
-            >
+            <a class="action button is-accent is-fullwidth" href="https://github.com/Devtory-GbR/weddin-client"
+              target="_blank">
               Client: View on GitHub
             </a>
-            <a
-              class="action button is-accent is-fullwidth"
-              href="https://github.com/Devtory-GbR/weddin-server"
-              target="_blank"
-            >
+            <a class="action button is-accent is-fullwidth" href="https://github.com/Devtory-GbR/weddin-server"
+              target="_blank">
               Server: View on GitHub
             </a>
           </div>
@@ -45,17 +39,14 @@
           <div class="card-content">
             <div class="title is-5 has-text-primary">⭐ Premium ⭐</div>
             <div class="pricing-title">
-              <div class="price subtitle is-1">149 €</div>
+              <div class="price subtitle old is-1"><span style="">149 €</span></div>
+              <div class="price subtitle is-1">99 €</div>
+              <div class="offer">Frühlingsangebot</div>
 
               <div class="price-info subtitle is-6">im ersten Jahr</div>
               <div class="price-2 subtitle is-3">
                 49 €
-                <b-tooltip
-                  type="is-light"
-                  :triggers="['click']"
-                  :auto-close="['outside', 'escape']"
-                  :multilined="true"
-                >
+                <b-tooltip type="is-light" :triggers="['click']" :auto-close="['outside', 'escape']" :multilined="true">
                   <template v-slot:content>
                     Kein Abo und keine Kündigung notwendig. <br />Nach jedem
                     Jahr erfolgt eine Erinnerung zur Zahlung. Erfolgt keine
@@ -86,10 +77,8 @@
             <!-- <NuxtLink class="action button is-accent is-fullwidth" to="/card2"
               >14-tägigen Test bestellen
             </NuxtLink> -->
-            <a
-              class="action button is-accent is-fullwidth"
-              href="mailto:contact@devtory.io?subject=Premium%20Package%20-%20WeddIn&body=Hallo%2C%0D%0A%0D%0Ahiermit%20m%C3%B6chte%20ich%20gerne%20das%20Premium%20Paket%20f%C3%BCr%20die%20Hochzeitswebseite%20erwerben.%0D%0A%0D%0A(Bitte%20Angeben)%0D%0ALiefertermin%3A%20XX.XX.XXXX%20%2F%20sofort%0D%0AWunschdomain%3A%20XXXX.weddin.site%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A"
-            >
+            <a class="action button is-accent is-fullwidth"
+              href="mailto:contact@devtory.io?subject=Premium%20Package%20-%20WeddIn&body=Hallo%2C%0D%0A%0D%0Ahiermit%20m%C3%B6chte%20ich%20gerne%20das%20Premium%20Paket%20f%C3%BCr%20die%20Hochzeitswebseite%20erwerben.%0D%0A%0D%0A(Bitte%20Angeben)%0D%0ALiefertermin%3A%20XX.XX.XXXX%20%2F%20sofort%0D%0AWunschdomain%3A%20XXXX.weddin.site%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A">
               14-tägigen Test bestellen
             </a>
           </div>
@@ -113,7 +102,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import './../assets/css/variables';
+@import '/assets/css/variables';
 
 .pricing-card-wrapper {
   margin-top: $spacing-L;
@@ -132,7 +121,9 @@ export default {
       min-width: unset;
       width: 100%;
     }
+
     display: flex;
+
     .card-content {
       flex: 1;
       display: flex;
@@ -149,43 +140,61 @@ export default {
         align-items: center;
         justify-content: center;
         min-height: 215px;
-      }
-      .price.subtitle,
-      .price-2.subtitle {
-        margin-bottom: 0;
 
-        .b-tooltip {
+        .offer {
+          display: inline;
           position: absolute;
+          margin-top: -100px;
+          margin-left: -90px;
+          rotate: -20deg;
+          padding: 0.25em 0.5em;
+          background: $accent-color;
+          color: white;
+          border-radius: 8px;
+          opacity: 0.85;
+          box-shadow: $box-shadow-z1;
         }
       }
+    }
 
-      .package-info {
-        text-align: center;
-      }
+    .price.subtitle.old {
+      text-decoration: line-through solid 3px $primary-color;
+    }
 
-      .divider {
-        margin-top: $spacing-L;
-      }
+    .price.subtitle,
+    .price-2.subtitle {
+      margin-bottom: 0;
 
-      .feature {
-        width: 100%;
-        border-top: 1px solid rgba(0, 0, 0, 0.2);
-        text-align: center;
-        padding-top: $spacing-M;
-        padding-bottom: $spacing-M;
-        color: $default-secondary2;
+      .b-tooltip {
+        position: absolute;
       }
+    }
 
-      .spacer {
-        flex: 1;
-      }
+    .package-info {
+      margin-top: $spacing-M;
+      text-align: center;
+    }
 
-      .action {
-        margin-top: $spacing-L;
-      }
+    .divider {
+      margin-top: $spacing-L;
+    }
+
+    .feature {
+      width: 100%;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding-top: $spacing-M;
+      padding-bottom: $spacing-M;
+      color: $default-secondary2;
+    }
+
+    .spacer {
+      flex: 1;
+    }
+
+    .action {
+      margin-top: $spacing-L;
     }
   }
 }
 </style>
-
-

@@ -6,10 +6,7 @@
           <nuxt-img src="/images/couple.png" />
         </div>
 
-        <h1
-          class="title font-pretty is-1 has-text-primary"
-          style="margin-bottom: 0"
-        >
+        <h1 class="title font-pretty is-1 has-text-primary" style="margin-bottom: 0">
           Organisiere dein Hochzeitsevent und Gästeliste.
         </h1>
         <h1 class="title font-pretty is-1 has-text-primary">
@@ -22,20 +19,13 @@
           Programmierkenntnisse .
         </div>
         <div class="action-btn">
-          <NuxtLink
-            class="button is-primary is-medium btn-lets-go"
-            to="/pricing"
-            >Los gehts
+          <NuxtLink class="button is-primary is-medium btn-lets-go" to="/pricing">Los gehts
           </NuxtLink>
-          <NuxtLink class="button is-accent is-medium btn-lets-go" to="/demo"
-            >Live Demo
+          <NuxtLink class="button is-accent is-medium btn-lets-go" to="/demo">Live Demo
           </NuxtLink>
         </div>
         <div class="intro-gif">
-          <nuxt-img
-            src="/images/gif/intro.gif"
-            sizes="sm:100vw md:80vw lg:750px"
-          />
+          <nuxt-img src="/images/gif/intro.gif" sizes="sm:100vw md:80vw lg:750px" />
         </div>
       </div>
     </section>
@@ -48,11 +38,7 @@
         <div class="feature-wrapper">
           <div class="feature">
             <div class="feature-icon">
-              <b-icon
-                icon="clipboard-edit-outline"
-                size="is-large"
-                type="is-primary"
-              >
+              <b-icon icon="clipboard-edit-outline" size="is-large" type="is-primary">
               </b-icon>
             </div>
             <div class="feature-content">
@@ -66,11 +52,7 @@
           </div>
           <div class="feature">
             <div class="feature-icon">
-              <b-icon
-                icon="account-check-outline"
-                size="is-large"
-                type="is-primary"
-              >
+              <b-icon icon="account-check-outline" size="is-large" type="is-primary">
               </b-icon>
             </div>
             <div class="feature-content">
@@ -203,7 +185,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import './../assets/css/variables';
+@import '/assets/css/variables';
+
 section.intro .app-container {
   display: flex;
   flex-direction: column;
@@ -213,6 +196,7 @@ section.intro .app-container {
   .font-pretty {
     font-weight: 400;
   }
+
   .svg {
     padding-top: $spacing-M;
     padding-bottom: $spacing-M;
@@ -223,6 +207,7 @@ section.intro .app-container {
       padding-bottom: $spacing-S;
     }
   }
+
   .intro-text {
     color: $default-secondary2;
     max-width: 860px;
@@ -234,11 +219,13 @@ section.intro .app-container {
     display: flex;
     gap: $spacing-L;
   }
+
   .intro-gif img {
     border: 5px solid lighten($accent-color, 25%);
     border-radius: 8px;
   }
 }
+
 section.features {
   .feature-wrapper {
     margin-top: $spacing-XL;
@@ -269,6 +256,7 @@ section.features {
     font-weight: 400;
     line-height: calc($typography-headline5 + 10px);
   }
+
   .feature-text {
     font-size: $typography-body1;
     line-height: calc($typography-body1 + 10px);
@@ -288,6 +276,7 @@ section.how-it-works {
       gap: $spacing-XL;
     }
   }
+
   .how-it-work {
     display: flex;
     gap: $spacing-XXL;
@@ -302,8 +291,10 @@ section.how-it-works {
       gap: $spacing-L;
     }
   }
+
   .how-it-work-gif {
     flex: 2;
+
     @media (max-width: $breakpoint-sm) {
       margin: auto;
       max-width: 500px;
@@ -314,10 +305,12 @@ section.how-it-works {
       border-radius: 8px;
     }
   }
+
   .how-it-work-content {
     flex: 1;
     text-align: left;
   }
+
   .how-it-work-step {
     margin-top: $spacing-XL;
     color: $primary-color;
@@ -326,6 +319,7 @@ section.how-it-works {
       margin-top: unset;
     }
   }
+
   .how-it-work-title {
     margin-top: $spacing-L;
 
@@ -337,11 +331,13 @@ section.how-it-works {
       margin-top: $spacing-M;
     }
   }
+
   .how-it-work-text {
     margin-top: $spacing-M;
 
     font-size: $typography-body1;
     line-height: calc($typography-body1 + 10px);
+
     @media (max-width: $breakpoint-sm) {
       margin-top: unset;
     }

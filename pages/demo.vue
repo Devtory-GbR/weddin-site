@@ -25,9 +25,7 @@
                 <nuxt-img src="/images/qr-code-1.png" />
               </div>
               <div class="url">
-                <a href="https://demo.weddin.site" target="_blank"
-                  >https://demo.weddin.site</a
-                >
+                <a href="https://demo.weddin.site" target="_blank">https://demo.weddin.site</a>
               </div>
               <div class="code">Code: <span>test</span></div>
               <div class="info">
@@ -46,9 +44,7 @@
         </h6>
         <p>
           <b>URL:</b>
-          <a href="https://demo.weddin.site" target="_blank"
-            >https://demo.weddin.site</a
-          >
+          <a href="https://demo.weddin.site" target="_blank">https://demo.weddin.site</a>
         </p>
         <p><b>Code:</b> brautpaar</p>
       </div>
@@ -61,9 +57,7 @@
         </h6>
         <p>
           <b>URL:</b>
-          <a href="https://demo.content.weddin.site/admin" target="_blank"
-            >https://demo.content.weddin.site/admin</a
-          >
+          <a href="https://demo.content.weddin.site/admin" target="_blank">https://demo.content.weddin.site/admin</a>
         </p>
         <p><b>Email:</b> demo@weddin.site</p>
         <p><b>Password:</b> DemoWeddin1</p>
@@ -80,7 +74,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import './../assets/css/variables';
+@import '/assets/css/variables';
 
 .demo-card-wrapper {
   margin-top: $spacing-L;
@@ -99,7 +93,9 @@ export default {
       min-width: unset;
       width: 100%;
     }
+
     display: flex;
+
     .card-content {
       flex: 1;
       display: flex;
@@ -145,9 +141,11 @@ export default {
       .qr-code {
         max-width: 175px;
       }
+
       .url {
         margin-bottom: 0.5em;
       }
+
       .code {
         span {
           padding-left: 0.5em;
@@ -155,8 +153,10 @@ export default {
           color: $accent-color;
           border-bottom: 1px solid $default-secondary;
         }
+
         margin-bottom: 1em;
       }
+
       .info {
         color: $default-secondary2;
         text-align: center;
